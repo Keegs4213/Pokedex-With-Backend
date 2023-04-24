@@ -3,9 +3,6 @@ const axios = require("axios");
 const fetchPokemon = (req, res) => {
   let requestType = req.query.type;
 
-  // if statement to axios all if type is all
-
-  // else axios by types
 
   // create array of promises (1 promise per pokemon)
   let promiseArray = [];
